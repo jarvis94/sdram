@@ -1,0 +1,50 @@
+
+State Machine - |nios_with_sdram|nios_with_sdram_nios2_gen2_0:nios2_gen2_0|nios_with_sdram_nios2_gen2_0_cpu:cpu|nios_with_sdram_nios2_gen2_0_cpu_nios2_oci:the_nios_with_sdram_nios2_gen2_0_cpu_nios2_oci|nios_with_sdram_nios2_gen2_0_cpu_debug_slave_wrapper:the_nios_with_sdram_nios2_gen2_0_cpu_debug_slave_wrapper|nios_with_sdram_nios2_gen2_0_cpu_debug_slave_tck:the_nios_with_sdram_nios2_gen2_0_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
+
+State Machine - |nios_with_sdram|sdram_controller:my_sdram_0|cmd_d
+Name cmd_d.idle1 cmd_d.mrs cmd_d.self cmd_d.ref cmd_d.pall cmd_d.pre cmd_d.act cmd_d.writea cmd_d.write1 cmd_d.reada cmd_d.read1 cmd_d.nop cmd_d.desl 
+cmd_d.desl 0 0 0 0 0 0 0 0 0 0 0 0 0 
+cmd_d.nop 0 0 0 0 0 0 0 0 0 0 0 1 1 
+cmd_d.read1 0 0 0 0 0 0 0 0 0 0 1 0 1 
+cmd_d.reada 0 0 0 0 0 0 0 0 0 1 0 0 1 
+cmd_d.write1 0 0 0 0 0 0 0 0 1 0 0 0 1 
+cmd_d.writea 0 0 0 0 0 0 0 1 0 0 0 0 1 
+cmd_d.act 0 0 0 0 0 0 1 0 0 0 0 0 1 
+cmd_d.pre 0 0 0 0 0 1 0 0 0 0 0 0 1 
+cmd_d.pall 0 0 0 0 1 0 0 0 0 0 0 0 1 
+cmd_d.ref 0 0 0 1 0 0 0 0 0 0 0 0 1 
+cmd_d.self 0 0 1 0 0 0 0 0 0 0 0 0 1 
+cmd_d.mrs 0 1 0 0 0 0 0 0 0 0 0 0 1 
+cmd_d.idle1 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |nios_with_sdram|sdram_controller:my_sdram_0|p_s
+Name p_s.ref p_s.ref_nop2 p_s.ref_nop p_s.read_nop3 p_s.read_nop2 p_s.read_cas p_s.read_nop1 p_s.read_act p_s.write_cas p_s.write_nop3 p_s.write_nop2 p_s.write_nop1 p_s.write_act p_s.idle p_s.init_nop4 p_s.init_msr p_s.init_nop3 p_s.init_ar p_s.init_nop2 p_s.init_pall p_s.init_nop1 p_s.init_s 
+p_s.init_s 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+p_s.init_nop1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+p_s.init_pall 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+p_s.init_nop2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+p_s.init_ar 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+p_s.init_nop3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+p_s.init_msr 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+p_s.init_nop4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+p_s.idle 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+p_s.write_act 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+p_s.write_nop1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+p_s.write_nop2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+p_s.write_nop3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+p_s.write_cas 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+p_s.read_act 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+p_s.read_nop1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+p_s.read_cas 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+p_s.read_nop2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+p_s.read_nop3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+p_s.ref_nop 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+p_s.ref_nop2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+p_s.ref 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

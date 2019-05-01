@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri May 04 13:13:05 2018
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : nios_with_sdraomcontroller
+Top-level Entity Name : nios_with_sdram
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 3,129 / 22,320 ( 14 % )
+    Total combinational functions : 2,555 / 22,320 ( 11 % )
+    Dedicated logic registers : 2,015 / 22,320 ( 9 % )
+Total registers : 2015
+Total pins : 42 / 154 ( 27 % )
+Total virtual pins : 0
+Total memory bits : 441,344 / 608,256 ( 73 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

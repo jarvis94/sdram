@@ -1,0 +1,31 @@
+14:26:53 **** Incremental Build of configuration Nios II for project sdram_software ****
+make all 
+Info: Building ../sdram_software_bsp/
+C:/intelFPGA_lite/17.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../sdram_software_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../sdram_software_bsp//HAL/inc -I../sdram_software_bsp/ -I../sdram_software_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:106:15: warning: overflow in implicit constant conversion [-Woverflow]
+  short data17=0x347AE;
+               ^
+In file included from hello_world_small.c:83:0:
+../sdram_software_bsp//HAL/inc/io.h:63:3: error: expected ';' before '__builtin_sthio'
+   __builtin_sthio (__IO_CALC_ADDRESS_DYNAMIC ((BASE), (OFFSET)), (DATA))
+   ^
+hello_world_small.c:169:4: note: in expansion of macro 'IOWR_16DIRECT'
+    IOWR_16DIRECT(MY_SDRAM_0_BASE,0, data0);
+    ^
+hello_world_small.c:106:8: warning: unused variable 'data17' [-Wunused-variable]
+  short data17=0x347AE;
+        ^
+hello_world_small.c:98:8: warning: unused variable 'data9' [-Wunused-variable]
+  short data9 = 0x9999;
+        ^
+hello_world_small.c:97:8: warning: unused variable 'data8' [-Wunused-variable]
+  short data8 = 0x8888;
+        ^
+make: *** [obj/default/hello_world_small.o] Error 1
+
+14:26:54 Build Finished (took 855ms)
+

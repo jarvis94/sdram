@@ -1,0 +1,181 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "my_sdram_0_wires_address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[4]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[5]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[6]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[7]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[8]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[9]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[10]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[11]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_address[12]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_ba_0_export",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_ba_1_export",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_cas_b_export",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_we_b_export",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_ras_b_export",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dqm_1_export",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dqm_h_export",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[4]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[5]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[6]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[7]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[8]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[9]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[10]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[11]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[12]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[13]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[14]",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_dbus_export[15]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_clk",
+					"strict" : false
+				},
+				{
+					"name" : "my_sdram_0_wires_init_export",
+					"strict" : false
+				},
+				{
+					"name" : "reset_reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
